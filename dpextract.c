@@ -199,6 +199,6 @@ int main(int argc, char **argv) {
         return 0;
     }
     puts("Usage:");
-    printf("%s <in_path> <offset> <out_path>", argv[0]);
+    printf("%s <in_path> <offset> <out_path>\n", argv[0]);
     return 1;
 }
